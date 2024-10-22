@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy xmlns="http://www.owasp.org/index.php/AntiSamy"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.owasp.org/index.php/AntiSamy http://www.owasp.org/index.php/AntiSamy">
+    <allowed-attributes>
+        <attribute name="id" />
+        <attribute name="class" />
+        <attribute name="style" />
+        <attribute name="href" />
+        <attribute name="src" />
+    </allowed-attributes>
+
+    <allowed-elements>
+        <element name="a" />
+        <element name="b" />
+        <element name="i" />
+        <element name="u" />
+        <element name="p" />
+        <element name="br" />
+        <element name="div" />
+        <element name="span" />
+        <element name="img" />
+    </allowed-elements>
+</policy>
